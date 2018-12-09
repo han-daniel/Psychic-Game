@@ -6,7 +6,7 @@ var losses = 0;
 var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 
 console.log(computerGuess);
-document.onkeydown = function(event) {
+document.onkeydown = function(ewvent) {
     var keyPress = (String.fromCharCode(event.keyCode)).toLowerCase();
     addLetter(keyPress);
 }
